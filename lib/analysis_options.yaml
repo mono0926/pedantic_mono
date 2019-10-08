@@ -5,6 +5,9 @@ analyzer:
   strong-mode:
     implicit-casts: false
     implicit-dynamic: false
+  errors:
+    missing_required_param: warning
+    missing_return: warning
 linter:
   rules:
     - avoid_types_on_closure_parameters

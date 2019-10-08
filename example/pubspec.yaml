@@ -4,6 +4,7 @@ version: 1.0.0
 environment:
   sdk: ">=2.2.2 <3.0.0"
 dependencies:
+  meta: any
   pedantic: any
   pedantic_mono:
     path: ../../pedantic_mono

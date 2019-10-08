@@ -1,3 +1,8 @@
+## [1.4.0]
+
+- missing_required_param: warning
+- missing_return: warning 
+
 ## [1.3.0]
 
 - Add many linter rules.

@@ -9,7 +9,7 @@ https://github.com/dart-lang/pedantic + https://github.com/flutter/samples
 ## Install
 
 ```yaml
-dependencies:
+dev_dependencies:
   pedantic_mono: any
 ```
 
