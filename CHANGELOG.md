@@ -1,3 +1,7 @@
+## [1.3.0]
+
+- Add many linter rules.
+
 ## [1.2.0]
 
 Add these rules.
