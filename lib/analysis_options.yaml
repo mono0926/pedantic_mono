@@ -28,3 +28,9 @@ linter:
     - unnecessary_getters_setters
     - unnecessary_new
     - unnecessary_statements
+    # mono flavored rules
+    # https://github.com/flutter/flutter/blob/cdc2d9901d1fb42c7f506b9413d12aec1b1abee8/analysis_options.yaml#L127
+    - prefer_const_constructors
+    - prefer_const_constructors_in_immutables
+    - prefer_const_declarations
+    - prefer_const_literals_to_create_immutables
