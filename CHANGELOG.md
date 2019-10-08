@@ -1,3 +1,10 @@
+## [1.2.0]
+
+Add these rules.
+
+- sort_constructors_first
+- sort_unnamed_constructors_first
+
 ## [1.1.0]
 
 Add these rules.
