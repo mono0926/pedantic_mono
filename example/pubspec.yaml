@@ -1,0 +1,8 @@
+name: example
+description: A example of pedantic_mono.
+version: 1.0.0
+environment:
+  sdk: ">=2.2.2 <3.0.0"
+dependencies:
+  pedantic_mono:
+    path: ../../pedantic_mono
