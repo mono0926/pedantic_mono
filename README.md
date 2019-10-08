@@ -2,10 +2,7 @@
 
 [mono edition] How to get the most value from Dart static analysis.
 
-
-https://github.com/dart-lang/pedantic
-   +
-https://github.com/flutter/samples
+https://github.com/dart-lang/pedantic + https://github.com/flutter/samples
 
 ## Usage
 
