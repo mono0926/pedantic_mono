@@ -1,3 +1,9 @@
+## [1.4.1]
+
+- Split out `analysis_options_flutter_samples.yaml`
+- It is also valid to specify`include: package:pedantic_mono/analysis_options_flutter_samples.yaml`
+  - More loose rules
+
 ## [1.4.0]
 
 - missing_required_param: warning
