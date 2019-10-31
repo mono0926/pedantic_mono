@@ -7,4 +7,4 @@ dependencies:
   meta: any
   pedantic: any
   pedantic_mono:
-    path: ../../pedantic_mono
+    path: ..
