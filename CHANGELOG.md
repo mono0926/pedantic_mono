@@ -1,3 +1,7 @@
+## [1.5.0]
+
+- Update pedantic to 1.9.0
+
 ## [1.4.1]
 
 - Split out `analysis_options_flutter_samples.yaml`
