@@ -1,3 +1,8 @@
+## [1.6.0]
+
+- Disable avoid_returning_null_for_future
+  - Not work as documented: https://dart-lang.github.io/linter/lints/avoid_returning_null_for_future.html
+
 ## [1.5.0]
 
 - Update pedantic to 1.9.0

@@ -21,7 +21,8 @@ linter:
     - avoid_private_typedef_functions
     - avoid_renaming_method_parameters
     - avoid_returning_null
-    - avoid_returning_null_for_future
+# Not work as documented: https://dart-lang.github.io/linter/lints/avoid_returning_null_for_future.html
+#    - avoid_returning_null_for_future
     - avoid_returning_null_for_void
     - avoid_returning_this
     - avoid_setters_without_getters
