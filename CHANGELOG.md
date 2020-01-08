@@ -1,3 +1,7 @@
+## [1.7.0]
+
+- Add prefer_final_in_for_each
+
 ## [1.6.0]
 
 - Disable avoid_returning_null_for_future
