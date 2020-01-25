@@ -1,3 +1,7 @@
+## [1.8.0]
+
+- Disable avoid_types_on_closure_parameters
+
 ## [1.7.0]
 
 - Add prefer_final_in_for_each
