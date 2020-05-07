@@ -1,3 +1,7 @@
+## [1.9.0]
+
+- Add sized_box_for_whitespace
+
 ## [1.8.0]
 
 - Disable avoid_types_on_closure_parameters

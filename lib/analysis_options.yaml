@@ -68,6 +68,7 @@ linter:
     - prefer_single_quotes
     - prefer_typing_uninitialized_variables
     - prefer_void_to_null
+    - sized_box_for_whitespace
     - sort_constructors_first
     - sort_pub_dependencies
     - sort_unnamed_constructors_first

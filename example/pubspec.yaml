@@ -4,6 +4,8 @@ version: 1.0.0
 environment:
   sdk: ">=2.2.2 <3.0.0"
 dependencies:
+  flutter:
+    sdk: flutter
   meta: any
   pedantic: any
   pedantic_mono:
