@@ -1,3 +1,8 @@
+## [1.9.1]
+
+- Comment out `sized_box_for_whitespace`, which hasn't released to current stable channel (1.17.1)
+  - It will be included in 1.10.0-dev for now
+
 ## [1.9.0]
 
 - Add sized_box_for_whitespace
