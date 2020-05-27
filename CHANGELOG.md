@@ -1,3 +1,7 @@
+## [1.10.0-dev]
+
+- Re-land `sized_box_for_whitespace` with as `dev` version
+
 ## [1.9.1]
 
 - Comment out `sized_box_for_whitespace`, which hasn't released to current stable channel (1.17.1)
