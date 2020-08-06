@@ -32,6 +32,7 @@ linter:
     - cascade_invocations
     - comment_references
     - directives_ordering
+    - exhaustive_cases
     - file_names
     - flutter_style_todos
     - invariant_booleans
@@ -41,6 +42,7 @@ linter:
     - list_remove_unrelated_type
     - literal_only_boolean_expressions
     - no_adjacent_strings_in_list
+    - no_default_cases #experimental
     - omit_local_variable_types
     - one_member_abstracts
     - only_throw_errors
@@ -80,6 +82,7 @@ linter:
     - unnecessary_parenthesis
     - unnecessary_this
     - use_function_type_syntax_for_parameters
+    - use_is_even_rather_than_modulo
     - use_setters_to_change_properties
     - use_string_buffers
     - use_to_and_as_if_applicable

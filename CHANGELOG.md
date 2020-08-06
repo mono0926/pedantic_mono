@@ -1,6 +1,9 @@
-## [1.10.0-dev]
+## [1.10.0]
 
-- Re-land `sized_box_for_whitespace` with as `dev` version
+- Add `sized_box_for_whitespace`
+- Add `exhaustive_cases`
+- Add `no_default_cases`
+- Add `use_is_even_rather_than_modulo`
 
 ## [1.9.1]
 
