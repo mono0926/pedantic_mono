@@ -1,6 +1,6 @@
 name: pedantic_mono
 description: "[mono edition] How to get the most value from Dart static analysis."
-version: 1.11.0+1
+version: 1.11.0+2
 homepage: https://github.com/mono0926/pedantic_mono
 
 environment:
