@@ -1,3 +1,16 @@
+## 1.11.0
+
+- Migrated to null safety
+- Add new lints
+  - avoid_dynamic_calls
+  - avoid_type_to_string
+  - cast_nullable_to_non_nullable
+  - null_check_on_nullable_type_parameter
+  - tighten_type_of_initializing_formals
+  - unnecessary_null_checks
+  - unnecessary_nullable_for_final_variable_declarations
+  - use_late
+
 ## 1.10.0
 
 - Add `sized_box_for_whitespace`
