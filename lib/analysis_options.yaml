@@ -91,7 +91,7 @@ linter:
     - unnecessary_this
     - use_function_type_syntax_for_parameters
     - use_is_even_rather_than_modulo
-    - use_late #experimental
+    - use_late_for_private_fields_and_variables #experimental
     - use_setters_to_change_properties
     - use_string_buffers
     - use_to_and_as_if_applicable
