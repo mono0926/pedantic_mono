@@ -1,3 +1,7 @@
+## 1.12.0-dev
+
+- Add `avoid_dynamic_calls`
+
 ## 1.11.0
 
 - Migrated to null safety
@@ -53,7 +57,7 @@
 ## 1.4.0
 
 - missing_required_param: warning
-- missing_return: warning 
+- missing_return: warning
 
 ## 1.3.0
 
