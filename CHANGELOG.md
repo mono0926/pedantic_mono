@@ -1,3 +1,9 @@
+## 1.12.1-dev
+
+- Add `avoid_multiple_declarations_per_line`
+- Add `deprecated_consistency`
+- Add `use_named_constants`
+
 ## 1.12.0-dev
 
 - Add `avoid_dynamic_calls`
