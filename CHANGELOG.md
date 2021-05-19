@@ -1,4 +1,4 @@
-## 1.12.1-dev
+## 1.12.1
 
 - Add `avoid_multiple_declarations_per_line`
 - Add `deprecated_consistency`
