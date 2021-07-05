@@ -1,3 +1,7 @@
+## 1.12.2
+
+- Add `avoid_print`
+
 ## 1.12.1
 
 - Add `avoid_multiple_declarations_per_line`
