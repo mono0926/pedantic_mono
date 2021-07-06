@@ -1,3 +1,7 @@
+## 1.13.0
+
+- Depends on `flutter_lints` instead of deprecated `pedantic`
+
 ## 1.12.3
 
 - Add `use_key_in_widget_constructors`
