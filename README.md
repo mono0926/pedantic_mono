@@ -1,8 +1,10 @@
 # pedantic_mono
 
-[mono edition] How to get the most value from Dart static analysis.
+[mono edition] Recommended lints for Flutter apps, packages, and plugins to encourage good coding practices.
 
-https://github.com/dart-lang/pedantic + https://github.com/flutter/samples
+Added a rule for flutter_lints that I think is even better.
+
+Added https://github.com/mono0926/pedantic_mono/blob/main/lib/analysis_options.yaml rules in addition to [flutter_lints](https://pub.dev/packages/flutter_lints).
 
 ## Usage
 
