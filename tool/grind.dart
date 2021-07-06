@@ -24,11 +24,13 @@ Future<void> diff() async {
   final flutterRules = await _extractMergedRules(flutterRaws);
   final monoOnlyRules = monoRules.difference(flutterRules);
   final flutterOnlyRules = flutterRules.difference(monoRules);
-  log('monoOnlyRules: $monoOnlyRules');
-  log('flutterOnlyRules: $flutterOnlyRules');
 
-  log((monoOnlyRules.toList()..sort()).map((rule) => '    - $rule').join('\n'));
+  log('flutterOnlyRules: \n${_formatRules(flutterOnlyRules)}');
+  log('monoOnlyRules: \n${_formatRules(monoOnlyRules)}');
 }
+
+String _formatRules(Set<String> rules) =>
+    (rules.toList()..sort()).map((rule) => '    - $rule').join('\n');
 
 List<String> _toRaws(List<String> urls) => urls.map((url) {
       return 'https://raw.githubusercontent.com/${Uri.parse(url).path.replaceFirst('blob/', '')}';
