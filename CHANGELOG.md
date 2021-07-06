@@ -1,3 +1,8 @@
+## 1.12.3
+
+- Add `use_key_in_widget_constructors`
+- Add `unnecessary_string_interpolations`
+
 ## 1.12.2
 
 - Add `avoid_print`
