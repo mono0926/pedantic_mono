@@ -23,9 +23,11 @@ Future<void> diff() async {
   final flutterRules = await _extractMergedRules(flutterRaws);
   final monoOnlyRules = monoRules.difference(flutterRules);
   final flutterOnlyRules = flutterRules.difference(monoRules);
+  final duplicatedRules = flutterRules.intersection(monoRules);
 
-  log('flutterOnlyRules: \n${_formatRules(flutterOnlyRules)}');
-  log('monoOnlyRules: \n${_formatRules(monoOnlyRules)}');
+  log('pedantic_mono only: \n${_formatRules(flutterOnlyRules)}');
+  log('flutter_lints only: \n${_formatRules(monoOnlyRules)}');
+  log('duplicated: \n${_formatRules(duplicatedRules)}');
 }
 
 String _formatRules(Set<String> rules) =>
