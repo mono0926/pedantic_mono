@@ -9,7 +9,6 @@ final _client = http.Client();
 Future<void> diff() async {
   final monoUrls = [
     'https://github.com/mono0926/pedantic_mono/blob/main/lib/analysis_options.yaml',
-    'https://github.com/google/pedantic/blob/master/lib/analysis_options.1.11.0.yaml'
   ];
 
   final flutterUrls = [
