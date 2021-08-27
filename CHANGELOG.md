@@ -1,3 +1,8 @@
+## 1.14.0
+
+- Set analyzer/language/strict-inference to true
+- Set analyzer/language/strict-raw-types to true
+
 ## 1.13.0
 
 - Depends on `flutter_lints` instead of deprecated `pedantic`
