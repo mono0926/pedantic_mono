@@ -39,9 +39,11 @@ linter:
     - cast_nullable_to_non_nullable
     - close_sinks
     - comment_references
+    - depend_on_referenced_packages
     - deprecated_consistency
     - directives_ordering
     #    - do_not_use_environment
+    - eol_at_end_of_file
     - flutter_style_todos
     - invariant_booleans
     - join_return_with_assignment
@@ -49,6 +51,7 @@ linter:
     - literal_only_boolean_expressions
     - no_adjacent_strings_in_list
     - no_default_cases
+    - noop_primitive_operations
     - null_check_on_nullable_type_parameter
     - omit_local_variable_types
     - one_member_abstracts
@@ -73,6 +76,7 @@ linter:
     - type_annotate_public_apis
     - unawaited_futures
     - unnecessary_await_in_return
+    - unnecessary_constructor_name
     - unnecessary_lambdas
     - unnecessary_null_aware_assignments
     - unnecessary_null_checks
@@ -87,5 +91,6 @@ linter:
     - use_named_constants
     - use_setters_to_change_properties
     - use_string_buffers
+    - use_test_throws_matchers
     - use_to_and_as_if_applicable
 

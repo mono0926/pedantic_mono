@@ -1,3 +1,12 @@
+## 1.15.0
+
+- Change minimum Dart version to '2.15.0'
+- Add `depend_on_referenced_packages`
+- Add `eol_at_end_of_file`
+- Add `noop_primitive_operations`
+- Add `unnecessary_constructor_name`
+- Add `use_test_throws_matchers`
+
 ## 1.14.0
 
 - Set analyzer/language/strict-inference to true
