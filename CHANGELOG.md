@@ -1,3 +1,14 @@
+## 1.16.0
+
+- Change minimum Dart version to '2.16.0'
+- Add `use_decorated_box`
+- Add `no_leading_underscores_for_library_prefixes`
+- Add `no_leading_underscores_for_local_identifiers`
+- Add `secure_pubspec_urls`
+- Add `sized_box_shrink_expand`
+- Add `avoid_final_parameters`
+- Add `unnecessary_late`
+
 ## 1.15.0
 
 - Change minimum Dart version to '2.15.0'
