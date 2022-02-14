@@ -1,3 +1,7 @@
+## 1.17.0
+
+- Add `require_trailing_commas`
+
 ## 1.16.0
 
 - Change minimum Dart version to '2.16.0'

@@ -69,6 +69,7 @@ linter:
     - prefer_int_literals
     - prefer_interpolation_to_compose_strings
     - prefer_single_quotes
+    - require_trailing_commas
     - secure_pubspec_urls
     - sized_box_shrink_expand
     - sort_child_properties_last
@@ -100,4 +101,3 @@ linter:
     - use_string_buffers
     - use_test_throws_matchers
     - use_to_and_as_if_applicable
-
