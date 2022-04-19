@@ -1,3 +1,6 @@
+## 1.18.0
+
+- Add `avoid_redundant_argument_values`
 ## 1.17.0
 
 - Add `require_trailing_commas`

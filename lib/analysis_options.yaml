@@ -26,6 +26,7 @@ linter:
     - avoid_multiple_declarations_per_line
     - avoid_positional_boolean_parameters
     - avoid_private_typedef_functions
+    - avoid_redundant_argument_values
     - avoid_returning_null
     # Not work as documented: https://dart-lang.github.io/linter/lints/avoid_returning_null_for_future.html
     #    - avoid_returning_null_for_future
