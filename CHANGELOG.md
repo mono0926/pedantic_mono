@@ -1,7 +1,7 @@
 ## 1.19.0
 
 - Change minimum Dart version to '2.17.0'
-- Add `used_colored_box`
+- Add `use_colored_box`
 - Add `use_enums`
 - Add `use_super_parameters`
 
