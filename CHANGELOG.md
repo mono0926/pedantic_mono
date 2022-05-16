@@ -1,3 +1,7 @@
+## 1.19.1
+
+- Update flutter_lints version constraints
+
 ## 1.19.0
 
 - Change minimum Dart version to '2.17.0'
