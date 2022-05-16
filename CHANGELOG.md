@@ -1,4 +1,4 @@
-## 1.19.1
+## 1.19.2
 
 - Update flutter_lints version constraints
 
