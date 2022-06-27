@@ -41,7 +41,6 @@ linter:
     - cast_nullable_to_non_nullable
     - close_sinks
     - comment_references
-    - depend_on_referenced_packages
     - deprecated_consistency
     - directives_ordering
     #    - do_not_use_environment
@@ -53,10 +52,7 @@ linter:
     - literal_only_boolean_expressions
     - no_adjacent_strings_in_list
     - no_default_cases
-    - no_leading_underscores_for_library_prefixes
-    - no_leading_underscores_for_local_identifiers
     - noop_primitive_operations
-    - null_check_on_nullable_type_parameter
     - omit_local_variable_types
     - one_member_abstracts
     - only_throw_errors
@@ -68,12 +64,10 @@ linter:
     - prefer_final_locals
     - prefer_foreach
     - prefer_int_literals
-    - prefer_interpolation_to_compose_strings
     - prefer_single_quotes
     - require_trailing_commas
     - secure_pubspec_urls
     - sized_box_shrink_expand
-    - sort_child_properties_last
     - sort_constructors_first
     - sort_pub_dependencies
     - sort_unnamed_constructors_first
@@ -83,12 +77,8 @@ linter:
     - type_annotate_public_apis
     - unawaited_futures
     - unnecessary_await_in_return
-    - unnecessary_constructor_name
     - unnecessary_lambdas
-    - unnecessary_late
-    - unnecessary_null_aware_assignments
     - unnecessary_null_checks
-    - unnecessary_nullable_for_final_variable_declarations
     - unnecessary_parenthesis
     - unnecessary_statements
     - unsafe_html
