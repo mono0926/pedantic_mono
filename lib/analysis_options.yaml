@@ -40,10 +40,12 @@ linter:
     - cascade_invocations
     - cast_nullable_to_non_nullable
     - close_sinks
+    # - combinators_ordering # Released in Dart 2.19
     - comment_references
     - deprecated_consistency
     - directives_ordering
-    #    - do_not_use_environment
+    # - discarded_futures
+    # - do_not_use_environment
     - eol_at_end_of_file
     - flutter_style_todos
     - invariant_booleans
@@ -78,9 +80,11 @@ linter:
     - unawaited_futures
     - unnecessary_await_in_return
     - unnecessary_lambdas
+    - unnecessary_null_aware_operator_on_extension_on_nullable
     - unnecessary_null_checks
     - unnecessary_parenthesis
     - unnecessary_statements
+    - unnecessary_to_list_in_spreads
     - unsafe_html
     # - use_build_context_synchronously
     - use_colored_box
@@ -92,6 +96,7 @@ linter:
     - use_named_constants
     - use_setters_to_change_properties
     - use_string_buffers
+    # - use_string_in_part_of_directives # Released in Dart 2.19
     - use_super_parameters
     - use_test_throws_matchers
     - use_to_and_as_if_applicable

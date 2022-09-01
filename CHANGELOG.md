@@ -1,3 +1,9 @@
+## 1.20.0
+
+- Change minimum Dart version to '2.18.0'
+- Add `unnecessary_null_aware_operator_on_extension_on_nullable`
+- Add `unnecessary_to_list_in_spreads`
+
 ## 1.19.2
 
 - Update flutter_lints version constraints
@@ -12,6 +18,7 @@
 ## 1.18.0
 
 - Add `avoid_redundant_argument_values`
+
 ## 1.17.0
 
 - Add `require_trailing_commas`
