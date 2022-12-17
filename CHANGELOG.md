@@ -1,3 +1,7 @@
+## 1.20.1
+
+- Add `language/strict-casts` and remove `strong-mode` (Not behavior change)
+
 ## 1.20.0
 
 - Change minimum Dart version to '2.18.0'
