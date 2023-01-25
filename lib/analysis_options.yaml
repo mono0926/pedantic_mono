@@ -46,7 +46,6 @@ linter:
     # - do_not_use_environment
     - eol_at_end_of_file
     - flutter_style_todos
-    - invariant_booleans
     - join_return_with_assignment
     - lines_longer_than_80_chars
     - literal_only_boolean_expressions
