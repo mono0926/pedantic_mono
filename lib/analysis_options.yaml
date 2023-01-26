@@ -90,7 +90,6 @@ linter:
     - unnecessary_to_list_in_spreads
     - unreachable_from_main
     - unsafe_html
-    # - use_build_context_synchronously
     - use_colored_box
     - use_decorated_box
     - use_enums
