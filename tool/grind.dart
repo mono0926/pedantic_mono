@@ -1,3 +1,5 @@
+// ignore_for_file: unreachable_from_main
+
 import 'package:grinder/grinder.dart';
 import 'package:http/http.dart' as http;
 import 'package:yaml/yaml.dart';

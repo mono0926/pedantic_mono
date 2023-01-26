@@ -1,3 +1,16 @@
+## 1.21.0
+
+- Change minimum Dart version to '2.19.0'
+- Remove deprecated `invariant_booleans`
+- Add `enable_null_safety`
+- Add `library_annotations`
+- Add `dangling_library_doc_comments`
+- Add `collection_methods_unrelated_type`
+- Add `implicit_call_tearoffs`
+- Add `unnecessary_library_directive`
+- Add `unreachable_from_main`
+- Add `use_string_in_part_of_directives`
+
 ## 1.20.1
 
 - Add `language/strict-casts` and remove `strong-mode` (Not behavior change)
