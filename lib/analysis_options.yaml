@@ -39,7 +39,7 @@ linter:
     - cast_nullable_to_non_nullable
     - close_sinks
     - collection_methods_unrelated_type
-    # - combinators_ordering # Released in Dart 2.19
+    - combinators_ordering
     - comment_references
     - dangling_library_doc_comments
     - deprecated_consistency

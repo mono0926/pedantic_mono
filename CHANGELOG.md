@@ -1,3 +1,7 @@
+## 1.21.1
+
+- Add `combinators_ordering`
+
 ## 1.21.0
 
 - Change minimum Dart version to '2.19.0'
