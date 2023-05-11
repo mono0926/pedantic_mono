@@ -26,7 +26,7 @@ linter:
     - avoid_private_typedef_functions
     - avoid_redundant_argument_values
     - avoid_returning_null
-    # Not work as documented: https://dart-lang.github.io/linter/lints/avoid_returning_null_for_future.html
+    # deprecated: https://dart-lang.github.io/linter/lints/avoid_returning_null_for_future.html
     #    - avoid_returning_null_for_future
     - avoid_returning_this
     - avoid_setters_without_getters
@@ -46,10 +46,12 @@ linter:
     - directives_ordering
     # - discarded_futures
     # - do_not_use_environment
-    - enable_null_safety
+    # - enable_null_safety
     - eol_at_end_of_file
     - flutter_style_todos
     - implicit_call_tearoffs
+    - implicit_reopen
+    - invalid_case_patterns
     - join_return_with_assignment
     - library_annotations
     - lines_longer_than_80_chars
@@ -79,8 +81,10 @@ linter:
     - throw_in_finally
     - tighten_type_of_initializing_formals
     - type_annotate_public_apis
+    - type_literal_in_constant_pattern
     - unawaited_futures
     - unnecessary_await_in_return
+    - unnecessary_breaks
     - unnecessary_lambdas
     - unnecessary_library_directive
     - unnecessary_null_aware_operator_on_extension_on_nullable

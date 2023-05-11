@@ -1,3 +1,11 @@
+## 1.22.0
+
+- Change minimum Dart version to '3.0.0' 🎯
+- Add `implicit_reopen`
+- Add `invalid_case_patterns`
+- Add `type_literal_in_constant_pattern`
+- Add `unnecessary_breaks`
+
 ## 1.21.1
 
 - Add `combinators_ordering`
