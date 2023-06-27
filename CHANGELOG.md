@@ -1,3 +1,12 @@
+## 1.23.0
+
+- Add `matching_super_parameters`
+- Add `no_literal_bool_comparisons`
+- Remove duplicated rules
+  - collection_methods_unrelated_type
+  - implicit_call_tearoffs
+  - use_string_in_part_of_directives
+
 ## 1.22.0
 
 - Change minimum Dart version to '3.0.0' 🎯
