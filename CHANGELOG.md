@@ -1,3 +1,9 @@
+## 1.24.0
+
+- Change minimum Dart version to '3.1.0' 🎯
+- Add `no_self_assignments`
+- Add `no_wildcard_variable_uses`
+
 ## 1.23.0
 
 - Add `matching_super_parameters`
