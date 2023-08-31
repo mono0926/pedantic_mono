@@ -1,3 +1,7 @@
+## 1.24.0+1
+
+- Adds pub topics to package metadata.
+
 ## 1.24.0
 
 - Change minimum Dart version to '3.1.0' 🎯
