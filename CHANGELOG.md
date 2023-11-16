@@ -1,3 +1,9 @@
+## 1.25.0
+
+- Change minimum Dart version to ^3.2.0 🎯
+- Add `annotate_redeclares`
+- Remove duplicated lints
+
 ## 1.24.0+1
 
 - Adds pub topics to package metadata.
