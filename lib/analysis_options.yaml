@@ -51,7 +51,6 @@ linter:
     - implicit_reopen
     - invalid_case_patterns
     - join_return_with_assignment
-    - library_annotations
     - lines_longer_than_80_chars
     - literal_only_boolean_expressions
     - matching_super_parameters
