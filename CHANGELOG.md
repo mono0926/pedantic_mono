@@ -2,6 +2,7 @@
 
 - Change minimum Dart version to ^3.3.0 🎯
 - Remove duplicated lints
+- Remove deleted lints
 
 ## 1.25.0
 
