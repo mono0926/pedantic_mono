@@ -27,8 +27,8 @@ Future<void> diff() async {
   final flutterOnlyRules = flutterRules.difference(monoRules);
   final duplicatedRules = flutterRules.intersection(monoRules);
 
-  log('pedantic_mono only: \n${_formatRules(flutterOnlyRules)}');
-  log('flutter_lints only: \n${_formatRules(monoOnlyRules)}');
+  log('pedantic_mono only: \n${_formatRules(monoOnlyRules)}');
+  log('flutter_lints only: \n${_formatRules(flutterOnlyRules)}');
   log('duplicated: \n${_formatRules(duplicatedRules)}');
 }
 
