@@ -1,3 +1,9 @@
+## 1.27.0
+
+- Change minimum Dart version to ^3.4.0 🎯
+- Add `missing_code_block_language_in_doc_comment`
+- Add `unnecessary_library_name`
+
 ## 1.26.0
 
 - Change minimum Dart version to ^3.3.0 🎯
