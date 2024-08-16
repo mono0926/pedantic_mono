@@ -1,15 +1,15 @@
 name: pedantic_mono
 description: '[mono edition] Recommended lints for Flutter apps, packages, and plugins to encourage good coding practices.'
-version: 1.27.0
+version: 1.28.0
 repository: https://github.com/mono0926/pedantic_mono
 funding:
   - https://github.com/sponsors/mono0926
 
 environment:
-  sdk: ^3.4.0
+  sdk: ^3.5.0
 
 dependencies:
-  flutter_lints: ^3.0.0
+  flutter_lints: ^4.0.0
 
 dev_dependencies:
   grinder:
