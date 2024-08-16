@@ -83,7 +83,6 @@ linter:
     - unnecessary_breaks
     - unnecessary_lambdas
     - unnecessary_library_directive
-    - unnecessary_library_name
     - unnecessary_null_aware_operator_on_extension_on_nullable
     - unnecessary_null_checks
     - unnecessary_parenthesis
