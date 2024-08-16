@@ -6,10 +6,10 @@ funding:
   - https://github.com/sponsors/mono0926
 
 environment:
-  sdk: ^3.4.0
+  sdk: ^3.5.0
 
 dependencies:
-  flutter_lints: ^3.0.0
+  flutter_lints: ^4.0.0
 
 dev_dependencies:
   grinder:
