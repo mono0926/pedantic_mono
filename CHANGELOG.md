@@ -1,3 +1,10 @@
+## 1.28.0
+
+- Change minimum Dart version to ^3.5.0 🎯
+- Add `invalid_runtime_check_with_js_interop_types`
+- Add `unintended_html_in_doc_comment`
+- Remove duplicated lints
+
 ## 1.27.0
 
 - Change minimum Dart version to ^3.4.0 🎯
