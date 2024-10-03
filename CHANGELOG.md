@@ -1,3 +1,8 @@
+## 1.29.0
+
+- Bump to `flutter_lints: ^5.0.0`
+- Add lints which were removed from flutter_lints
+
 ## 1.28.0
 
 - Change minimum Dart version to ^3.5.0 🎯
