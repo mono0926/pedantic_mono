@@ -1,3 +1,16 @@
+## 1.30.0
+
+- Change minimum Dart version to ^3.7.0 🎯
+- Add `avoid_futureor_void`
+- Add `invalid_runtime_check_with_js_interop_types`
+- Add `omit_obvious_local_variable_types`
+- Add `omit_obvious_property_types`
+- Add `strict_top_level_inference`
+- Add `unnecessary_async`
+- Add `unnecessary_underscores`
+- Add `unsafe_variance`
+- Add `use_truncating_division`
+
 ## 1.29.0
 
 - Bump to `flutter_lints: ^5.0.0`
