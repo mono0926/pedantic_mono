@@ -1,3 +1,7 @@
+## 1.30.2
+
+- Add `specify_nonobvious_property_types`
+
 ## 1.30.1
 
 - Remove `unsafe_variance`
