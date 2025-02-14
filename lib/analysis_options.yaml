@@ -103,7 +103,7 @@ linter:
     - unnecessary_underscores
     - unreachable_from_main
     # - unsafe_html, removed
-    - unsafe_variance
+    # - unsafe_variance
     - use_colored_box
     - use_decorated_box
     - use_enums

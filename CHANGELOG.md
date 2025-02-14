@@ -1,3 +1,7 @@
+## 1.30.1
+
+- Remove `unsafe_variance`
+
 ## 1.30.0
 
 - Change minimum Dart version to ^3.7.0 🎯
