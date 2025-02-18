@@ -1,3 +1,7 @@
+## 1.30.3
+
+- Remove `require_trailing_commas`
+
 ## 1.30.2
 
 - Add `specify_nonobvious_property_types`
