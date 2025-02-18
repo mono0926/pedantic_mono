@@ -1,6 +1,6 @@
 ## 1.30.3
 
-- Remove `require_trailing_commas`
+- Remove `require_trailing_commas` (#9)
 
 ## 1.30.2
 
