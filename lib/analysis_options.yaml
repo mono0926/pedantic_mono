@@ -77,7 +77,7 @@ linter:
     - prefer_foreach
     - prefer_int_literals
     - prefer_single_quotes
-    - require_trailing_commas
+#    - require_trailing_commas
     - sized_box_shrink_expand
     - sort_constructors_first
     - sort_pub_dependencies
