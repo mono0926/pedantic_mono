@@ -3,7 +3,7 @@ description: A example of pedantic_mono.
 version: 1.0.0
 publish_to: none
 environment:
-  sdk: ^3.5.0
+  sdk: ^3.8.0
 
 dependencies:
   flutter:

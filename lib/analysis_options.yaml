@@ -94,6 +94,7 @@ linter:
     - unnecessary_async
     - unnecessary_await_in_return
     - unnecessary_breaks
+    - unnecessary_ignore
     - unnecessary_lambdas
     - unnecessary_library_directive
     - unnecessary_null_aware_operator_on_extension_on_nullable
@@ -111,6 +112,7 @@ linter:
     - use_is_even_rather_than_modulo
     - use_late_for_private_fields_and_variables
     - use_named_constants
+    - use_null_aware_elements
     - use_setters_to_change_properties
     - use_string_buffers
     - use_test_throws_matchers

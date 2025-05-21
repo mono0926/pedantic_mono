@@ -1,3 +1,9 @@
+## 1.31.0
+
+- Change minimum Dart version to ^3.8.0 🎯
+- Add `unnecessary_ignore`
+- Add `use_null_aware_elements`
+
 ## 1.30.3
 
 - Remove `require_trailing_commas` (#9)
