@@ -1,3 +1,7 @@
+## 1.32.0
+
+- Preserve trailing commas (#10)
+
 ## 1.31.0
 
 - Change minimum Dart version to ^3.8.0 🎯
