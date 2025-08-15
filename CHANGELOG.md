@@ -1,3 +1,10 @@
+## 1.33.0
+
+- Change minimum Dart version to ^3.9.0 🎯
+- Add `switch_on_type`
+- Add `unnecessary_unawaited`
+- Remove `omit_obvious_property_types`, conflicts with `type_annotate_public_apis`
+
 ## 1.32.0
 
 - Preserve trailing commas (#10)

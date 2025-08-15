@@ -64,7 +64,7 @@ linter:
     - noop_primitive_operations
     - omit_local_variable_types
     - omit_obvious_local_variable_types
-    - omit_obvious_property_types
+    # - omit_obvious_property_types, conflict with type_annotate_public_apis
     - one_member_abstracts
     - only_throw_errors
     # - package_api_docs, removed
@@ -87,6 +87,7 @@ linter:
     # - specify_nonobvious_local_variable_types
     - specify_nonobvious_property_types
     - strict_top_level_inference
+    - switch_on_type
     - test_types_in_equals
     - throw_in_finally
     - tighten_type_of_initializing_formals
@@ -103,6 +104,7 @@ linter:
     - unnecessary_null_checks
     - unnecessary_parenthesis
     - unnecessary_statements
+    - unnecessary_unawaited
     - unnecessary_underscores
     - unreachable_from_main
     # - unsafe_html, removed
