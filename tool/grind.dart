@@ -14,7 +14,7 @@ Future<void> diff() async {
   ];
 
   final flutterUrls = [
-    'https://github.com/flutter/packages/blob/master/packages/flutter_lints/lib/flutter.yaml',
+    'https://github.com/flutter/packages/blob/main/packages/flutter_lints/lib/flutter.yaml',
     'https://github.com/dart-lang/lints/blob/main/lib/recommended.yaml',
     'https://github.com/dart-lang/lints/blob/main/lib/core.yaml',
   ];
@@ -36,14 +36,13 @@ String _formatRules(Set<String> rules) =>
     (rules.toList()..sort()).map((rule) => '    - $rule').join('\n');
 
 List<String> _toRaws(List<String> urls) => urls.map((url) {
-      return 'https://raw.githubusercontent.com/${Uri.parse(url).path.replaceFirst('blob/', '')}';
-    }).toList();
+  return 'https://raw.githubusercontent.com/${Uri.parse(url).path.replaceFirst('blob/', '')}';
+}).toList();
 
 Future<Set<String>> _extractMergedRules(List<String> urls) async {
   final rules = (await Future.wait(
     urls.map(_extractRules),
-  ))
-      .expand((rules) => rules);
+  )).expand((rules) => rules);
   return Set.from(rules);
 }
 

@@ -1,6 +1,7 @@
 ## 1.34.0
 
 - Bump to `flutter_lints: ^6.0.0`
+- Remove duplicated lints
 
 ## 1.33.0
 
