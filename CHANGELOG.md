@@ -1,3 +1,7 @@
+## 1.34.0
+
+- Bump to `flutter_lints: ^6.0.0`
+
 ## 1.33.0
 
 - Change minimum Dart version to ^3.9.0 🎯
