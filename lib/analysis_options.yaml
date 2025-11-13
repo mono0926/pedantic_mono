@@ -79,6 +79,7 @@ linter:
     - prefer_int_literals
     - prefer_single_quotes
 #    - require_trailing_commas
+    - remove_deprecations_in_breaking_versions
     - sized_box_shrink_expand
     - sort_constructors_first
     - sort_pub_dependencies

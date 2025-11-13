@@ -1,3 +1,8 @@
+## 1.35.0
+
+- Change minimum Dart version to ^3.10 🎯
+- Add `remove_deprecations_in_breaking_versions`
+
 ## 1.34.0
 
 - Bump to `flutter_lints: ^6.0.0`
