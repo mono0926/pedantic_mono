@@ -1,3 +1,8 @@
+## 1.36.0
+
+- Change minimum Dart version to ^3.11 🎯
+- Add `simplify_variable_pattern`
+
 ## 1.35.0
 
 - Change minimum Dart version to ^3.10 🎯
