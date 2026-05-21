@@ -1,3 +1,8 @@
+## 1.37.0
+
+- Change minimum Dart version to ^3.12 🎯
+- Add `simple_directive_paths`
+
 ## 1.36.0
 
 - Change minimum Dart version to ^3.11 🎯
