@@ -1,10 +1,8 @@
-## 1.38.0
+## 1.38.1
 
-- Change minimum Dart version to ^3.13 🎯
 - Add lints:
   - [`async_return_with_no_await`](https://dart.dev/tools/linter-rules/async_return_with_no_await)
   - [`empty_container_bodies`](https://dart.dev/tools/linter-rules/empty_container_bodies)
-  - [`initialize_in_field_declaration`](https://dart.dev/tools/linter-rules/initialize_in_field_declaration)
   - [`no_dynamic_casts`](https://dart.dev/tools/linter-rules/no_dynamic_casts)
   - [`no_raw_types`](https://dart.dev/tools/linter-rules/no_raw_types)
   - [`unnecessary_const_in_enum_constructor`](https://dart.dev/tools/linter-rules/unnecessary_const_in_enum_constructor)
@@ -12,7 +10,12 @@
   - [`unnecessary_type_name_in_constructor`](https://dart.dev/tools/linter-rules/unnecessary_type_name_in_constructor)
   - [`use_declaring_parameters`](https://dart.dev/tools/linter-rules/use_declaring_parameters)
   - [`use_primary_constructors`](https://dart.dev/tools/linter-rules/use_primary_constructors)
-- Remove deprecated lints:
+
+## 1.38.0
+
+- Change minimum Dart version to ^3.13 🎯
+- Add [`initialize_in_field_declaration`](https://dart.dev/tools/linter-rules/initialize_in_field_declaration)
+- Remove deprecated lints
   - [`avoid_private_typedef_functions`](https://dart.dev/tools/linter-rules/avoid_private_typedef_functions)
   - [`one_member_abstracts`](https://dart.dev/tools/linter-rules/one_member_abstracts)
   - [`unnecessary_await_in_return`](https://dart.dev/tools/linter-rules/unnecessary_await_in_return)
