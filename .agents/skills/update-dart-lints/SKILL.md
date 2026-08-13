@@ -38,7 +38,21 @@ Follow these steps sequentially to perform a lint update and release:
      - Rules introduced in `flutter_lints`.
      - Duplicated rules between `pedantic_mono` and `flutter_lints`.
 
-### 2. Update Configurations & Code
+### 2. Rule Impact Evaluation & User Review (MANDATORY)
+
+Do **NOT** automatically enable all newly discovered linter rules without evaluation. You must evaluate each new rule for potential drawbacks and consult the user before editing `lib/analysis_options.yaml`:
+
+1. **Analyze Impact & Drawbacks**:
+   - **Experimental Rules**: Identify if a rule is marked as experimental (e.g., `use_primary_constructors`). Experimental rules often introduce excessive noise or unexpected warnings.
+   - **Strict Mode Rules**: Identify if a rule duplicates analyzer options (e.g., `no_dynamic_casts` vs `strict-casts: true`) or creates excessive friction in day-to-day coding.
+   - **Style & DX Impact**: Assess if a rule forces rigid code style changes (e.g., `empty_container_bodies`, `use_declaring_parameters`) or creates friction with interface implementations (e.g., `async_return_with_no_await`).
+
+2. **Present Table & Consult User**:
+   - Present a clear evaluation table for the user showing each candidate rule, its purpose, impact level (High / Medium / Low / Experimental), and potential drawbacks.
+   - Ask the user which rules to enable, omit, or keep commented out.
+   - **Wait for explicit user approval** on the selected set of rules before updating `lib/analysis_options.yaml`.
+
+### 3. Update Configurations & Code
 
 1. **Update `pubspec.yaml`**:
    - Update `environment.sdk` to the new minimum Dart version (e.g., `^3.13.0`):
@@ -64,7 +78,7 @@ Follow these steps sequentially to perform a lint update and release:
      ```
      Ensure all tests pass.
 
-### 3. Update `CHANGELOG.md`
+### 4. Update `CHANGELOG.md`
 
 Add a new version entry at the top of `CHANGELOG.md` following `pedantic_mono`'s conventions:
 
@@ -81,7 +95,7 @@ Add a new version entry at the top of `CHANGELOG.md` following `pedantic_mono`'s
     - [`unnecessary_await_in_return`](https://dart.dev/tools/linter-rules/unnecessary_await_in_return)
   ```
 
-### 4. Trigger Release Workflow (`release-pub`)
+### 5. Trigger Release Workflow (`release-pub`)
 
 Once changes and `CHANGELOG.md` are prepared and verified:
 
