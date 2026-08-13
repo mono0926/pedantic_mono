@@ -21,9 +21,11 @@ Follow these steps sequentially to perform a lint update and release:
 ### 1. Information Gathering & Diff Analysis
 
 1. **Check Official Changelogs**:
-   - Inspect [https://dart.dev/changelog](https://dart.dev/changelog) or [https://github.com/dart-lang/sdk/blob/main/CHANGELOG.md](https://github.com/dart-lang/sdk/blob/main/CHANGELOG.md) to discover:
+   - Read [https://raw.githubusercontent.com/dart-lang/sdk/main/CHANGELOG.md](https://raw.githubusercontent.com/dart-lang/sdk/main/CHANGELOG.md) or [https://dart.dev/changelog](https://dart.dev/changelog) thoroughly.
+   - Search specifically for the **`Tools -> Linter`** and **`Tools -> Analyzer`** sections of the target release to capture ALL newly added, modified, or deprecated lints.
+   - Note:
      - The latest stable Dart version number (e.g., `3.13.0`).
-     - New linter rules added in this release.
+     - ALL new linter rules added in this release.
      - Deprecated or removed linter rules.
 
 2. **Run Linter Diff Tool**:
@@ -67,13 +69,16 @@ Follow these steps sequentially to perform a lint update and release:
 Add a new version entry at the top of `CHANGELOG.md` following `pedantic_mono`'s conventions:
 
 - Use a minor version bump for new Dart version support / added lints (e.g., `## 1.38.0`).
-- Format entries as follows:
+- Format entries as follows (always include links to `https://dart.dev/tools/linter-rules/<lint_name>` for linter rules):
   ```markdown
   ## 1.38.0
 
   - Change minimum Dart version to ^3.13 🎯
-  - Add `new_lint_rule_name`
-  - Remove duplicated lints
+  - Add [`initialize_in_field_declaration`](https://dart.dev/tools/linter-rules/initialize_in_field_declaration)
+  - Remove deprecated lints
+    - [`avoid_private_typedef_functions`](https://dart.dev/tools/linter-rules/avoid_private_typedef_functions)
+    - [`one_member_abstracts`](https://dart.dev/tools/linter-rules/one_member_abstracts)
+    - [`unnecessary_await_in_return`](https://dart.dev/tools/linter-rules/unnecessary_await_in_return)
   ```
 
 ### 4. Trigger Release Workflow (`release-pub`)
