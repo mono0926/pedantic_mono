@@ -51,6 +51,7 @@ linter:
     - eol_at_end_of_file
     - empty_container_bodies
     - flutter_style_todos
+    - future_sync_value
     - implicit_reopen
     - initialize_in_field_declaration
     - invalid_case_patterns
@@ -112,6 +113,7 @@ linter:
     - unnecessary_parenthesis
     - unnecessary_primary_constructor_body
     - unnecessary_statements
+    - unnecessary_this_alias
     - unnecessary_type_name_in_constructor
     - unnecessary_unawaited
     - unnecessary_underscores
