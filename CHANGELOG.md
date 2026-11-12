@@ -1,3 +1,11 @@
+## 1.39.0
+
+- Change minimum Dart version to ^3.14 🎯
+- Add lints:
+  - [`future_sync_value`](https://dart.dev/tools/linter-rules/future_sync_value)
+  - [`unnecessary_this_alias`](https://dart.dev/tools/linter-rules/unnecessary_this_alias)
+- Add bundled AI agent skill `pedantic_mono-linter` (#17)
+
 ## 1.38.1
 
 - Add lints:
